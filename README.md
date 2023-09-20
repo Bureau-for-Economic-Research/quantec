@@ -33,7 +33,7 @@ streamline research process.
 Quantec is a consultancy providing economic and financial data, country
 intelligence and quantitative analytical software.
 
-Please reach out to [Quantec](https://www.easydata.co.za/) via there
+Please reach out to [Quantec](https://www.easydata.co.za/) via their
 Contact Page <https://www.quantec.co.za/contact/> to receive an API key.
 
 ## Installation
@@ -42,13 +42,6 @@ Install from GitHub.
 
 ``` r
 remotes::install_github("Bureau-for-Economic-Research/quantec")
-```
-
-If you want availability to the latest features (at your own risk) then
-you can also install from the development branch.
-
-``` r
-remotes::install_github("Bureau-for-Economic-Research/quantec", ref = "dev")
 ```
 
 ## Usage
