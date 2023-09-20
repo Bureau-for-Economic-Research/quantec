@@ -1,0 +1,8 @@
+url: ~
+template:
+  bootstrap: 5
+  bslib:
+    bg: "#ffffff"
+    fg: "black"
+    primary: "#306cc9"
+  
