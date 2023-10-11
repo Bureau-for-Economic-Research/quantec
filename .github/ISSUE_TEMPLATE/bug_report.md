@@ -23,11 +23,21 @@ A clear and concise description of what you expected to happen.
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 
-<details>
-<summary>Click to Expand</summary>
-
 **Additional context**
 Add any other context about the problem here.
+
+> [!NOTE]
+> Highlights information that users should take into account, even when skimming.
+
+> [!IMPORTANT]
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]
+> Critical content demanding immediate user attention due to potential risks.
+
+
+<details>
+<summary>Click to Expand</summary>
 
 ``` r
 sessionInfo()
