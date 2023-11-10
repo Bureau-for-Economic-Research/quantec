@@ -5,9 +5,7 @@
 #' @param freq frequency to return `M`, `Q` or `A`
 #' @param start_year year to start
 #' @param end_year year to end
-#' @param respformat to return `csv` or `json`
 #' @param log_file log file to output to if in parallel
-#' @param is_tidy tidyformat for easy read
 #'
 #' @return tibble
 #' @export
@@ -15,11 +13,9 @@
 
 quantec_get_data <- function(time_series_code, 
                              freq =  c("M", "Q", "A")[1], 
-                             start_year = "1900-01-01",
-                             end_year = Sys.Date(),
-                             respformat = c("csv", "json")[1],
-                             log_file, 
-                             is_tidy = TRUE){
+                             start_year = "",
+                             end_year = "",
+                             log_file){
   
   
   if(!missing(log_file))
@@ -31,7 +27,7 @@ quantec_get_data <- function(time_series_code,
 
   query_list <- all_param <- list(
     timeSeriesCodes = time_series_code,
-    respFormat = respformat,
+    respFormat = "csv",
     freqs = freq,
     auth_token = apikey,
     startYear = start_year,
