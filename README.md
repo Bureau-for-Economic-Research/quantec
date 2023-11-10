@@ -86,11 +86,9 @@ The package currently provides an interface to the
 
 - `time_series_code` time series code to return, `NMS-EC_BUS,NMS-GA_BUS`
 - `freq` frequency to return `M`, `Q` or `A`
-- `start_year` year to start
-- `end_year` year to end
-- `respformat` to return `csv` or `json`
+- `start_year` year to start (OPTIONAL)
+- `end_year` year to end (OPTIONAL)
 - `log_file` log file to output to
-- `is_tidy` tidyformat for easy read
 
 ``` r
 library(quantec)
